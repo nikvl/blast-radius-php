@@ -1,5 +1,5 @@
 {
-    "name": "php-uml/php-uml-generator",
+    "name": "nikvl/blast-radius-php",
     "description": "Visualizes how a git diff impacts your PHP project's architecture — interactive UML diagrams with inline code diff highlighting, plus CI integration for posting review comments straight from the diagram.",
     "type": "library",
     "license": "MIT",

@@ -1,4 +1,4 @@
-# php-uml-generator
+# blast-radius-php
 
 Generates interactive UML diff diagrams for PHP projects. Shows exactly which classes changed in a git diff, which methods were modified, and which other classes are transitively impacted — all in a single self-contained HTML file.
 
@@ -15,17 +15,17 @@ Generates interactive UML diff diagrams for PHP projects. Shows exactly which cl
 ## Installation
 
 ```bash
-composer require --dev php-uml/php-uml-generator
+composer require --dev nikvl/blast-radius-php
 ```
 
 Or via VCS repository (before publishing to Packagist):
 
 ```json
 "repositories": [
-    { "type": "vcs", "url": "https://gitlab.com/YOUR_GROUP/php-uml-generator.git" }
+    { "type": "vcs", "url": "https://github.com/nikvl/blast-radius-php.git" }
 ],
 "require-dev": {
-    "php-uml/php-uml-generator": "dev-main"
+    "nikvl/blast-radius-php": "dev-main"
 }
 ```
 
