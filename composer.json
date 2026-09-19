@@ -1,0 +1,28 @@
+{
+    "name": "php-uml/php-uml-generator",
+    "description": "Visualizes how a git diff impacts your PHP project's architecture — interactive UML diagrams with inline code diff highlighting, plus CI integration for posting review comments straight from the diagram.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Nikulin",
+            "email": "nikvvnikdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "nikic/php-parser": "^5.0",
+        "symfony/console": "^6.0|^7.0",
+        "symfony/finder": "^6.0|^7.0",
+        "symfony/process": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpUmlGenerator\\": "src/"
+        }
+    },
+    "bin": ["bin/php-uml-generate"]
+}
